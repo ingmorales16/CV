@@ -1,0 +1,746 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Curriculum Vitae</title>
+        <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  </head>
+ 
+  <body>
+
+    <!--Barra de Navegacion-->
+    
+    <nav class="navbar navbar-dark bg-dark navbar-static-top" role="navigation"">
+      <div class="container-fluid">
+        <h1 class="navbar-brand fs-2">Curriculum Vitae</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <i class="bi bi-envelope"></i>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          
+          <!--HEADER NAV-->
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title fs-2" id="offcanvasDarkNavbarLabel">Ing. Leandro Morales</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          
+
+          <!--BODY NAV-->
+          <div class="offcanvas-body">
+
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+              <li class="Contacto">
+                <h5 class="text-center">Contáctame</h5>
+
+                <!--FORMULARIO-->
+
+                <form action="https://formsubmit.co/ingmorales16@gmail.com" method="POST">
+
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label" >Nombre</label>
+                    <input name="Nombre" class="form-control" id="exampleFormControlInput1" placeholder="Escriba su Nombre" required>
+                  </div>
+                  
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput2" class="form-label">Apellido</label>
+                    <input name="Apellido" class="form-control" id="exampleFormControlInput2" placeholder="Escriba su Apellido" required>
+                  </div>
+                  
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput3" class="form-label">Direccion de Correo</label>
+                    <input name="Email" type="email" class="form-control" id="exampleFormControlInput3" placeholder="ejemplo@ejemplo.com" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea name="Mensaje" class="form-control" id="exampleFormControlTextarea1" placeholder="Escriba su mensaje." rows="3"></textarea>
+                  </div>
+                  
+                  <div class="col-auto">
+                    <button type="submit" class="btn btn-secondary">Enviar</button>
+                  </div>
+             </form>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--HEADER-->
+
+    <header class= "bg-dark text-white">
+      
+      <div class="bg-image p-5 text-center shadow-1-strong rounded text-white" style="background-image: url('img/Fondos/Fondo.jpg');" >
+
+        <div class="container text-center">
+          <div class="row align-items-center">
+            <div class="col-md p-3">
+              <img src="/img/Foto CV tamaño.jpg" class="img-thumbnail" alt="Foto CV">
+            </div>
+            <div class="col">
+              <h2 class="fs-1">Resumen Profesional</h2>
+              <p class="fs-3">
+                Ingeniero apasionado por la electrónica, motivado al continuo aprendizaje y con la mejor disposición para realizar mis labores.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </header>
+
+    <!--MAIN-->
+
+    <main>
+
+      <div class="accordion p-3 bg-dark text-white" id="accordionPanelsStayOpenExample">
+          
+      <!--Seccion 1 Datos personales-->
+      <section class= "p-3 bg-dark text-white fs-2">
+          
+        <div class="accordion-item text-bg-light">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button collapsed bg-secondary text-white fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+          Datos Personales
+          </button>
+          </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="bg-image p-5 text-center shadow-1-strong rounded text-white" style="background-image: url('img/Fondos/Fondo1.jpg');">
+                
+                
+                <dl class="row">
+                  <dt class="col-sm-6">Nombre:</dt>
+                  <dd class="col-sm-6">Leandro</dd>
+                  <dt class="col-sm-6">Apellido:</dt>
+                  <dd class="col-sm-6">Morales</dd>
+                  <dt class="col-sm-6">Fecha de Nacimiento:</dt>
+                  <dd class="col-sm-6">06/03/1993</dd>
+                  <dt class="col-sm-6">Edad:</dt>
+                  <dd class="col-sm-6">29 Años</dd>
+
+                  <dt class="col-sm-6">Estado civil:</dt>
+                  <dd class="col-sm-6">Casado</dd>
+                  <dt class="col-sm-6">Nacionalidad:</dt>
+                  <dd class="col-sm-6">Argentina</dd>
+                  <dt class="col-sm-6">Provincia:</dt>
+                  <dd class="col-sm-6">Santiago del Estero</dd>
+                  <dt class="col-sm-6">Localidad:</dt>
+                  <dd class="col-sm-6">Capital</dd>
+
+                </dl>
+
+              </div>
+            </div>
+          </div>
+
+      </section>
+
+      <!--Seccion 2 Formacion Academica-->
+      <section class= "p-3 bg-dark text-white">
+
+          <div class="accordion-item text-bg-light">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed bg-secondary text-white fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                Formacion Academica
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="bg-image p-5 text-center shadow-1-strong rounded text-white" style="background-image: url('img/Fondos/Fondo2.jpg');">
+
+                <dl class="row">
+                  <h3 class="fs-1">Colegio San Fransisco de Asis</h3>
+                </dl>
+
+                <dl class="row fs-3">
+                  <dt class="col-sm-6">Nivel Primario:</dt>
+                  <dd class="col-sm-6">Completo</dd>
+                  <dt class="col-sm-6">Nivel Secundario:</dt>
+                  <dd class="col-sm-6">Completo</dd>
+                  <dt class="col-sm-6">Fecha de finalizacion:</dt>
+                  <dd class="col-sm-6">07/12/2010</dd>
+                  <dt class="col-sm-6">Titulacion:</dt>
+                  <dd class="col-sm-6">Polimodal en Humanidades y Ciencias Sociales</dd>
+                  <dt class="col-sm-6">Promedio:</dt>
+                  <dd class="col-sm-6">7.85</dd>
+                </dl>
+
+                <dl class="row">
+                  <h3 class="fs-1">Universidad Nacional de Santiago del Estero</h3>
+                </dl>
+
+                <dl class="row fs-3">
+                  <dt class="col-sm-6">Carrera de grado:</dt>
+                  <dd class="col-sm-6">Ing. Electronica</dd>
+                  <dt class="col-sm-6">Facultad:</dt>
+                  <dd class="col-sm-6">Ciencias Exactas y Tecnologias</dd>
+                  <dt class="col-sm-6">Fecha de finalizacion:</dt>
+                  <dd class="col-sm-6">11/11/2022</dd>
+                  <dt class="col-sm-6">Titulacion:</dt>
+                  <dd class="col-sm-6">Ingeniero en Electronica</dd>
+                  <dt class="col-sm-6">Promedio:</dt>
+                  <dd class="col-sm-6">8.23</dd>
+                  <dt class="col-sm-6">Reconocimiento:</dt>
+                  <dd class="col-sm-6">Cuadro de Honor de la Facultad de Ciencias</dd>
+                </dl>
+
+              </div>
+            </div>
+          </div>
+
+      </section>
+
+      <!--Seccion 3 Idiomas-->
+      <section class= "p-3 bg-dark text-white">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed bg-secondary text-white fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                Idiomas
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="bg-image p-5 text-center shadow-1-strong rounded text-white" style="background-image: url('img/Fondos/Fondo3.jpg');">
+                
+                <dl class="row fs-2">
+                  <dt class="col-sm-6">Ingles:</dt>
+                  <dd class="col-sm-6 p-3">
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar progress-bar-striped bg-secondary" style="width: 50%">50%</div>
+                    </div>
+                  </dd>
+                  <dt class="col-sm-6">Aleman:</dt>
+                  <dd class="col-sm-6 p-3">
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                      <div class="progress-bar progress-bar-striped bg-secondary" style="width: 50%">50%</div>
+                    </div>
+                  </dd>
+              </div>
+
+            </div>
+          
+          </div>
+
+      </section>
+
+      <!--Seccion 4 Habilidades-->
+      <section class= "p-3 bg-dark text-white">
+
+              <div class="accordion-item text-bg-light">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                  <button class="accordion-button collapsed bg-secondary text-white fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                    Habilidades
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                  <div class="bg-image p-5 text-center shadow-1-strong rounded text-white" style="background-image: url('img/Fondos/Fondo1.jpg');">
+                    
+                    <dl class="row fs-3">
+                      <dt class="col-sm-6">Excelente manejo de software de oficina:</dt>
+                      <dd class="col-sm-6">Word, Excel, Powerpoint, Outlook, Acces. </dd>
+                      <dt class="col-sm-6">Software de diseño y proyectos:</dt>
+                      <dd class="col-sm-6">Autocad, Sketchup, Seelectrical, Proteus, Project. </dd>
+                      <dt class="col-sm-6">Lenguajes de programacion:</dt>
+                      <dd class="col-sm-6">Ladder, ensamblador, html, css, javascript, php.</dd>
+                      <dt class="col-sm-6">Software para plataformas audiovisuales:</dt>
+                      <dd class="col-sm-6">Davinci resolve, Reaper, Ableton Live, Filmora, Coreldraw. </dd>
+                      <dt class="col-sm-6">Software para videoconferencia:</dt>
+                      <dd class="col-sm-6">Google meet, Discord, Zoom, Skype.</dd>
+                    </dl>
+    
+                  </div>
+                </div>
+              </div>
+    
+      </section>      
+    
+      <!--Seccion 5 Cursos y Capacitaciones-->
+      <section class= "p-3 bg-dark text-white">
+
+        <div class="accordion-item text-bg-light">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+            <button class="accordion-button collapsed bg-secondary text-white fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+              Cursos y Capacitaciones
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+            <div class="bg-image p-5 text-center shadow-1-strong rounded text-white" style="background-image: url('img/Fondos/Fondo2.jpg');">
+
+              <dl class="row fs-3">
+                <dt class="col-sm-3">Año: 2013</dt>
+                <dd class="col-sm-9">Segunda jornada de seguridad en instalaciones eléctricas.(UNSE).</dd>
+                <dt class="col-sm-3">Año: 2015</dt>
+                <dd class="col-sm-9">Riesgo eléctrico.(UNSE)</dd>
+                <dt class="col-sm-3">Año: 2015</dt>
+                <dd class="col-sm-9">Patentes, protección de la información,  obras intelectuales y propiedad Intelectual  en la universidad. (Dirección general de ciencia y tecnología).</dd>
+                <dt class="col-sm-3">Año: 2016</dt>
+                <dd class="col-sm-9">Degradación de residuos plásticos con agentes físicos y con microorganismos.(UNJU)</dd>
+                <dt class="col-sm-3">Año: 2016</dt>
+                <dd class="col-sm-9">Introducción a la impresión en 3D: Tecnología y Materiales.(UNJU).</dd>
+                <dt class="col-sm-3">Año: 2017</dt>
+                <dd class="col-sm-9">Curso de Inyección y soplados de preformas de PET.(AMCOR).</dd>
+                <dt class="col-sm-3">Año: 2022</dt>
+                <dd class="col-sm-9"> Curso de programación #Seprogramar del modulo Argentina programa 4.0.</dd>
+              </dl>
+
+            </div>
+          </div>
+        </div>
+
+      </section>   
+
+      <!--Seccion 6 Historia Laboral-->
+      <section class= "p-3 bg-dark text-white">
+      <div class="accordion-item text-bg-light">
+      <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+        <button class="accordion-button collapsed bg-secondary text-white fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+        Experiencia Laboral
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+            
+
+        <!--VITALISSIMA SA-->
+
+        <div class="bg-image p-5 text-center shadow-1-strong rounded text-white" style="background-image: url('img/Fondos/Fondo3.jpg');">
+
+              <dl class="row">
+                <h3 class="fs-1">Vitalissima S.A.</h3>
+              </dl>
+
+              <dl class="row fs-3">
+              <dt class="col-sm-6">Empresa:</dt>
+              <dd class="col-sm-6">Envasadora de agua y soda</dd>
+              <dt class="col-sm-6">Puesto Laboral:</dt>
+              <dd class="col-sm-6">Mantenimiento Electrico y Electronico</dd>
+              <dt class="col-sm-6">Periodo:</dt>
+              <dd class="col-sm-6">11/2019 - 03/2022</dd>
+              </dl>
+
+              <dl class="row fs-4">
+                <dd class="col-sm-6">
+                
+                    <h3>Trabajos Realizados:</h3>
+                    <p>Instalación y cableado de tableros eléctricos en líneas de baja tensión.</p>
+                    <p>Instalación y cableado de equipos PLC en la industria.</p>
+                    <p>Instalación y parametrización de variadores de velocidad en motores trifásicos.</p>
+                    <p>Programación de pantalla Táctil HMI.</p>
+              
+                </dd>
+
+                <dd class="col-sm-6">
+
+                  <!--Carrusel de imagenes Vitalisima-->
+                    
+                  <div id="carouselExampleCaptions" class="carousel slide">
+                              <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                              </div>
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="img/Vitalissima/Etiquetadora.jpg" class="d-block w-100" alt="...">
+                                  <div class="carousel-caption d-none d-md-block fs-6">
+                                    <h5>Maquina etiquetadora de botellas</h5>
+                                    <p>Montaje y programación de pantalla táctil HMI.</p>
+                                  </div>
+                                </div>
+                              <div class="carousel-item">
+                                <img src="img/Vitalissima/Tablero.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block fs-6">
+                                  <h5>Máquina etiquetadora de botellas</h5>
+                                  <p>Diseño y contruccián de tablero electrico.</p>
+
+                                        </div>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/Vitalissima/TableroSortil.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block fs-6">
+                                          <h5>Horno de termocontracción</h5>
+                                          <p>Construccion y cableado de tablero principal.</p>
+
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                            
+                  </div>
+
+                </dd>
+
+              </dl>
+
+
+
+
+        </div>
+          
+        <hr/>
+
+        <!--COMINTEL-->
+        <div class="bg-image p-5 text-center shadow-1-strong rounded text-white" style="background-image: url('img/Fondos/Fondo3.jpg');">
+  
+                        <dl class="row">
+                          <h3 class="fs-1">Comintel S.A.</h3>
+                        </dl>
+              
+                        <dl class="row fs-3">
+                          <dt class="col-sm-6">Empresa:</dt>
+                          <dd class="col-sm-6">Constructora</dd>
+                          <dt class="col-sm-6">Puesto Laboral:</dt>
+                          <dd class="col-sm-6">Ingeniero de obra</dd>
+                          <dt class="col-sm-6">Periodo:</dt>
+                          <dd class="col-sm-6">05/2022 - 08/2022</dd>
+                        </dl>
+
+                          <dl class="row fs-4">
+                            <dd class="col-sm-6">
+                            
+                                <h3>Trabajos Realizados:</h3>
+                                <p>Planificación, diseño y supervisión de obras de alumbrado público.</p>
+                                <p>Organización de maquinaria y recursos humanos en obras.</p>
+                                <p>Diseño y construcción de tableros eléctricos en obras de iluminación.</p>
+                                <p>Cálculo y dimensionamiento de conductores en obras de alumbrado público.</p>
+                                              
+                            </dd>
+            
+                            <dd class="col-sm-6">
+            
+                              <!--Carrusel de imagenes Comintel-->
+                                
+                              <div id="carouselExample" class="carousel slide">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="img/Comintel/Comintel41.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block fs-6">
+                                      <h5>Obra de Alumbrado Público</h5>
+                                      <p>Excavacion de zanja para cable subterraneo.</p>
+                                    </div>
+                                  </div>
+                                <div class="carousel-item">
+                                  <img src="img/Comintel/Comintel11.jpg" class="d-block w-100" alt="...">
+                                  <div class="carousel-caption d-none d-md-block fs-6">
+                                    <h5>Obra de Alumbrado Público</h5>
+                                         <p>Mantenimiento de columnas y reemplazo de luminarias.</p>
+                                          </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="img/Comintel/Comintel22.jpg" class="d-block w-100" alt="...">
+                                          <div class="carousel-caption d-none d-md-block fs-6">
+                                            <h5>Obra de Alumbrado Público</h5>
+                                            <p>Perforación para cruce de calle de cable subterraneo.</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                      </button>
+                                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                      </button>
+                              
+                              </div>
+                              
+                            </dd>
+            
+                          </dl>
+            
+        </div>  
+  
+        <hr />
+  
+        <!--SANGIEL-->
+        <div class="bg-image p-5 text-center shadow-1-strong rounded text-white" style="background-image: url('img/Fondos/Fondo3.jpg');">
+  
+                        <dl class="row">
+                          <h3 class="fs-1">Sangiel panificados.</h3>
+                        </dl>
+              
+                        <dl class="row fs-3">
+                          <dt class="col-sm-6">Empresa:</dt>
+                          <dd class="col-sm-6">Elaboracion de alimentos</dd>
+                          <dt class="col-sm-6">Puesto Laboral:</dt>
+                          <dd class="col-sm-6">Encargado de Mantenimiento</dd>
+                          <dt class="col-sm-6">Periodo:</dt>
+                          <dd class="col-sm-6">10/2022 - Actualidad</dd>
+                        </dl>
+
+                          <dl class="row fs-4">
+                            <dd class="col-sm-6">
+                            
+                                <h3>Trabajos Realizados:</h3>
+                                <p>Mantenimiento preventivo y correctivo en la industria.</p>
+                                <p>Organización y gestión de recursos para el mantenimiento de la planta.</p>
+                                <p>Elaboración de documentación técnica de maquinaria industrial.</p>
+                                <p>Supervisión y control de las unidades de transporte de alimentos.</p>
+                                              
+                            </dd>
+            
+                            <dd class="col-sm-6">
+            
+                              <!--Carrusel de imagenes Comintel-->
+                                
+                              <div id="carouselExample1" class="carousel slide">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExample1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExample1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExample1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="img/Sangiel/sangiel1.jpg" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block fs-6">
+                                      <h5>Linea de produccion de pan lactal</h5>
+                                      <p>Mantenimiento de divisora/rebolladora de masa.</p>
+                                    </div>
+                                  </div>
+                                <div class="carousel-item">
+                                  <img src="img/Sangiel/" class="d-block w-100" alt="...">
+                                  <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                         <p>Some representative placeholder content for the second slide.</p>
+                                          </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="img/Sangiel/" class="d-block w-100" alt="...">
+                                          <div class="carousel-caption d-none d-md-block">
+                                            <h5>Third slide label</h5>
+                                            <p>Some representative placeholder content for the third slide.</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                      </button>
+                                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                      </button>
+                              
+                              </div>
+                              
+                            </dd>
+            
+                          </dl>
+
+            
+        </div> 
+          
+        <hr />
+
+        <!--ELECTRONICA SAINT GERMAIN-->
+        <div class="bg-image p-5 text-center shadow-1-strong rounded text-white" style="background-image: url('img/Fondos/Fondo3.jpg');">
+
+            <dl class="row">
+              <h3 class="fs-1">Electrónica Saint Germain</h3>
+            </dl>
+  
+            <dl class="row fs-3">
+              <dt class="col-sm-6">Emprendimiento:</dt>
+              <dd class="col-sm-6">Taller de reparaciones</dd>
+              <dt class="col-sm-6">Puesto Laboral:</dt>
+              <dd class="col-sm-6">Tecnico de reparaciones</dd>
+              <dt class="col-sm-6">Periodo:</dt>
+              <dd class="col-sm-6">11/2019 - Actualidad</dd>
+              </dl>
+
+
+              <dl class="row fs-4">
+                <dd class="col-sm-6">
+                
+                    <h3>Trabajos Realizados:</h3>
+                    <p>Reparación de equipos de telefonía móvil.</p>
+                    <p>Reparación de computadoras y  programación de sistemas informáticos.</p>
+                    <p>Reparación de audio y TV. </p>
+                    <p>Instalación y configuración de sistemas de monitoreo por cámaras de seguridad.</p>
+                                  
+                </dd>
+
+                <dd class="col-sm-6">
+
+                  <!--Carrusel de imagenes Comintel-->
+                    
+                  <div id="carouselExample2" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExample2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExample2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExample2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/Saint Germain/Taller.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block fs-6">
+                          <h5>Taller de reparaciones</h5>
+                          <p>Diseño y contruccion de tablero electrico.</p>
+                        </div>
+                      </div>
+                    <div class="carousel-item">
+                      <img src="img/Saint Germain/" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                             <p>Some representative placeholder content for the second slide.</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="img/Saint Germain/" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                  
+                  </div>
+                  
+                </dd>
+
+              </dl>
+  
+        </div>
+
+        <hr />
+
+        <!--ELECTRONICA ZENER-->
+        <div class="bg-image p-5 text-center shadow-1-strong rounded text-white" style="background-image: url('img/Fondos/Fondo3.jpg');">
+
+            <dl class="row">
+              <h3 class="fs-1">Electrónica Zener</h3>
+            </dl>
+  
+            <dl class="row fs-3">
+              <dt class="col-sm-6">Emprendimiento:</dt>
+              <dd class="col-sm-6">Canal de Youtube</dd>
+              <dt class="col-sm-6">Puesto Laboral:</dt>
+              <dd class="col-sm-6">Creador y Editor de contenido</dd>
+              <dt class="col-sm-6">Periodo:</dt>
+              <dd class="col-sm-6">07/2020 - Actualidad</dd>
+              </dl>
+
+              <dl class="row fs-4">
+                <dd class="col-sm-6">
+                
+                    <h3>Trabajos Realizados:</h3>
+                    <p>Creación de contenido educativo teórico-practico sobre electrónica en general.</p>
+                    <p>Manejo de software de grabacion de videos.</p>
+                    <p>Manejo de software de edicion de videos.</p>
+                    <p>Composición de musica para el canal.</p>
+                                  
+                </dd>
+
+                <dd class="col-sm-6 ">
+
+                    <iframe class="container-fluid" width="560" height="315" src="https://www.youtube.com/embed/hkoNC1IYUV4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+                </dd>
+
+              </dl>
+
+        </div>  
+
+      </div>           
+
+      </section>   
+
+      
+    </main>
+
+    <!--FOOTER-->
+
+    <footer class="text-white text-center text-lg-start bg-dark">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+
+      <div class="row mt-4">
+
+        <!--Grid column 1 -->
+
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase text-center mb-4">DATOS DE INTERES</h5>
+
+          <p class="mb-4 text-center">Medio de movilidad: Automóvil Propio</p>
+          <p class="mb-4 text-center">Licencia de conducir: A2.2 B1</p>
+
+        </div>
+
+        <!--Grid column 1 -->
+
+        <!--Grid column 2-->
+
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-center mb-4 pb-1">CONTACTO</h5>
+          <p class="mb-4 text-center">ingmorales16@gmail.com</p>
+          <p class="mb-4 text-center">+543854857944</p>
+        </div>
+
+        <!--Grid column 2-->
+
+
+        <!--Grid column 3-->
+
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase text-center mb-4">Enlaces de Interes</h5>
+
+          <div class="mt-4 text-center">
+    
+            <!-- Youtube -->
+            <a type="button" href="https://www.youtube.com/@ElectronicaZenerSgo" class="btn btn-floating btn-light btn-lg" target="_blank"><i class="bi bi-youtube" ></i></a>
+            <!-- Whatsapp -->
+            <a type="button" href="https://wa.me/+543854857944" class="btn btn-floating btn-light btn-lg" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            <!-- Gmail -->
+            <a type="button"  class=" btn btn-floating btn-light btn-lg" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"><i class="bi bi-envelope"></i></a>
+            <!-- Linkedin -->
+            <a type="button" href="https://www.linkedin.com/in/ingmorales16" class="btn btn-floating btn-light btn-lg" target="_blank"><i class="bi bi-linkedin"></i></a>
+          
+          </div>
+          
+        </div>
+
+        <!--Grid column 3-->
+
+      </div>
+   
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      Argentina Programa 4.0
+    </div>
+    <!-- Copyright -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
